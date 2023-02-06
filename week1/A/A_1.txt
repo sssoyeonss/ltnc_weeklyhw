@@ -1,0 +1,14 @@
+1. Lệnh không làm gì vì không đúng cú pháp. Sửa: bool isA = (90 <= grade ) && (grade <= 100);
+2. 0.6
+3. Phép tính x * x được thực hiện trước, kết quả phép tính là 2^32 đã vượt quá miền giá trị của int => Lỗi không in ra kết quả đúng
+4. 1(true)
+6. - Trình biên dịch báo lỗi vì không thể thực hiện phép nhân số nguyên với string. 
+   - Khai báo double x trong hàm main(), giá trị được in ra là một giá trị bất kỳ
+   - Khai báo ngoài main thì chương trình in ra 0
+5. Chương trình báo lỗi vì không chia được cho 0
+7. 0 0.75 0.75 0.75
+8. Lỗi conflict declaration
+9. Chương trình in ra A. Định danh arg1 chỉ tới biến char arg1.
+10. Khi ra khỏi khối lệnh cao arg1 chỉ tới biến int arg1.
+11. 5/9 sẽ luôn có giá trị là 0 -> C luôn có giá trị 0.
+12. Here
