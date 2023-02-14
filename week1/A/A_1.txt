@@ -1,7 +1,7 @@
 1. Lệnh không làm gì vì không đúng cú pháp. Sửa: bool isA = (90 <= grade ) && (grade <= 100);
 2. 0.6
 3. Phép tính x * x được thực hiện trước, kết quả phép tính là 2^32 đã vượt quá miền giá trị của int => Lỗi không in ra kết quả đúng
-4. 1(true)
+4. 0(false) do sai số từ phép tính căn
 6. - Trình biên dịch báo lỗi vì không thể thực hiện phép nhân số nguyên với string. 
    - Khai báo double x trong hàm main(), giá trị được in ra là một giá trị bất kỳ
    - Khai báo ngoài main thì chương trình in ra 0
