@@ -1,0 +1,36 @@
+1. bool majority(bool a, bool b, bool c){
+    return (a == 1 && b == 1) || (b == 1 && c == 1) || (c == 1 && a == 1);
+}
+
+2.bool eq(int a[], int b[], int n){
+    bool res = 1;
+    for(int i = 0; i < n; i++){
+        if(a[i] != b[i]){
+            res = 0; break;
+        }
+    }
+    return res;
+}
+
+3. 1000
+4. 1717
+6. Lỗi không rõ ràng
+7. A
+8. A
+9. B
+10. B
+11. C
+12. B
+13. D
+14. D
+15. B
+16. C
+17. A
+18. A
+19. B
+20. C, D, B
+21. B
+22. C
+23. C
+24. A
+25. A, B26. B 
